@@ -39,9 +39,9 @@ The files to be executed are:
 2. etl.py
 
 e.g. Got to the terminal and type 
->>python create_tables.py
+1. python create_tables.py
 once this runs successfully
->> python etl.py
+2. python etl.py
 
 Create_tables internally uses sql_queries.py to drop, create tables.
 etl.py internally uses sql_queries for table insertions using select queries.
