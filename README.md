@@ -21,6 +21,8 @@ We use a star schema with one Fact table (the songplay table) and 4 Dimension ta
 4. The artist table will hold information abou the artists (artist id, name, location, latitude and longitude)
 5. The time table will hold information about all the times all users accessed the songs, with the timestamp saved along with hr, day, week, month, year format.
 
+![ER Diagram](images/ER_diagram.png)
+
 ### ETL pipeline
 The ETL pipeline is as follows:
 1. Load all the data from events and song files into staging tables in Redshift.
