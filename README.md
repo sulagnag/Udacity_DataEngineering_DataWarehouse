@@ -40,7 +40,7 @@ The files to be executed are:
 1. create_tables.py
 2. etl.py
 
-e.g. Got to the terminal and type 
+e.g. Go to the terminal and type 
 1. python create_tables.py
 once this runs successfully
 2. python etl.py
